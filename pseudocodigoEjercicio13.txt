@@ -1,0 +1,48 @@
+Algoritmo Ejercicio13
+	
+	Hacer
+		
+		Escribir "Ingrese 1 para Sumar"
+		Escribir "Ingrese 2 para Dividir"
+		Escribir "Ingrese 3 para Salir"
+		Leer Respuesta
+		
+		si Respuesta = 1 Entonces
+			
+			Escribir "Ingrese 1er. numero"
+			Leer num1
+			
+			Escribir "Ingrese 2do. numero"
+			Leer num2
+			
+			suma = num1 + num2
+			
+			Escribir "La suma de " num1 " y " num2 " es: " suma
+			
+		SiNo Si Respuesta = 2 Entonces
+				
+				Escribir "Ingrese Numerador o numero que desea dividir"
+				Leer Numerador
+				
+				Escribir "Ingrese Denominador o numero en el que va a dividir"
+				Leer Denominador
+				
+				si Denominador != 0 Entonces
+					
+					division = Numerador / Denominador
+					
+					Escribir "El resultado de la division es: " division
+					
+				SiNo
+					
+					Escribir "No se puede Dividir por 0"
+					
+				FinSi
+				
+			FinSi
+			
+		FinSi
+		
+	Hasta Que Respuesta = 3 
+	
+FinAlgoritmo
